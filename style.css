@@ -1,0 +1,174 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.feature-box {
+    max-width: 300px;
+    text-align: center;
+}
+
+.feature-box h2 {
+    font-size: 24px;
+}
+
+/* Pricing Section */
+.pricing {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.pricing h2 {
+    margin-bottom: 30px;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pricing-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    max-width: 250px;
+}
+
+.pricing-box h3 {
+    font-size: 20px;
+}
+
+.pricing-box p {
+    font-size: 18px;
+    color: #007BFF;
+}
+
+.pricing-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-box ul li {
+    margin: 10px 0;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+}
+
+.contact p {
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact form textarea {
+    height: 100px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
